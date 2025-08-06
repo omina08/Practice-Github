@@ -3,7 +3,7 @@ import React from 'react';
 const Ekskursiya = () => {
   return (
     <div>
-      <header className="bg-white shadow-sm border-b border-gray-200">
+      <div className="bg-white shadow-sm border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 py-6">
           <div className="flex items-center gap-8">
             <h1 className="text-3xl font-bold text-gray-900">Экскурсии</h1>
@@ -17,7 +17,7 @@ const Ekskursiya = () => {
             </div>
           </div>
         </div>
-      </header>
+      </div>
 
       <div className="max-w-7xl mx-auto px-4 py-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
